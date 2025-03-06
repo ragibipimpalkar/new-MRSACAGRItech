@@ -9,6 +9,7 @@ const About = () => {
         AgriTech integrates modern technology with farming to enhance productivity, efficiency, 
         and sustainability. Our platform provides farmers with the tools they need to succeed.
       </p>
+      <p>these is being checked</p>
     </div>
   );
 };
