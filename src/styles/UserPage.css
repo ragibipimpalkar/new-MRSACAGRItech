@@ -1,0 +1,50 @@
+/* Center the user page */
+.user-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #f0f2f5, #dfe3ee);
+}
+
+/* User card */
+.user-card {
+  width: 400px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.user-card h1 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.user-card p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Logout button */
+.user-card button {
+  width: 100%;
+  padding: 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.user-card button:hover {
+  background-color: #c82333;
+}
+
+/* Responsive */
+@media (max-width: 400px) {
+  .user-card {
+    width: 90%;
+  }
+}
